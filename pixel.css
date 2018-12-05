@@ -1,0 +1,83 @@
+.lienzo {
+
+position: relative;
+width: 600px;
+border: 2px;
+border-radius: 50px;
+margin: 10 auto;
+height: 600px;
+background-color: #25d366;
+}
+
+.position {    
+position: absolute;
+}
+
+.circle{
+	position: relative;
+	top: -550px;
+	left: 50px;  
+	right: 50px; 
+     width: 500px;
+     height: 500px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffff;
+}
+
+.triangulo {
+     width: 0; 
+     height: 0; 
+     border-left: 100px solid #f0ad4e;
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent;
+     background: #ffff;
+
+}
+
+
+.puerta {
+width: 80px;
+height: 120px;
+background-color: brown;
+bottom: 0;
+left: 38%;
+border-top-left-radius: 75%;
+border-top-right-radius: 75%;
+border: 4px solid #000000;
+}
+
+
+.cerradura {
+width: 15px;
+height: 15px;
+background-color: blue;
+border-radius: 50%;
+top: 50%;
+right: 1%;
+}
+
+
+
+.techo {
+width: 0;
+height: 0;
+top: 30%;
+border-left: 150px solid transparent;
+border-right: 150px solid transparent;
+border-bottom: 250px solid #bbbbbb;
+left: 25%;
+top: 8.5%;
+}
+
+
+
+.chimenea {
+width: 50px;
+height: 130px;
+background-color: aqua;
+left: 58%;
+top: 16%;
+z-index: -1;
+}
